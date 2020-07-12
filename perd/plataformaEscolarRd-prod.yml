@@ -1,4 +1,8 @@
-database:
-  username: postgres
-  password: XDWEKF4SDE8WDD25DS7WW6D02D 
-  connectionUrl: jdbc:postgresql://localhost:5432/prod-perd-db
+app:
+  settings:
+    database:
+      username: postgres
+      password: XDWEKF4SDE8WDD25DS7WW6D02D 
+      connectionUrl: jdbc:postgresql://localhost:5432/prod-perd-db
+    server:
+      port: 8080

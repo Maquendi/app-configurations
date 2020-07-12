@@ -1,6 +1,9 @@
-database:
-  username: sa
-  password:  
-  connectionUrl: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-  
+app:
+  settings:
+    database:
+      username: sa
+      password: 
+      connectionUrl: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    server:
+      port: 8191
   
