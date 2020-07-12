@@ -1,4 +1,4 @@
 database:
-  username: prodAdminUser
-  password: productionPassword 
-  jdbcUrl: jdbc:postgresql://some-aws-rds-instance-here:5432/prod-perd-db
+  username: postgres
+  password: Summer01 
+  connectionUrl: jdbc:postgresql://some-aws-rds-instance-here:5432/prod-perd-db

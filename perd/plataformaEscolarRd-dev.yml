@@ -1,6 +1,6 @@
 database:
-  username: maco
-  password: macopassword 
-  jdbcUrl: jdbc:postgresql://localhost:5432/dev-perd-db
+  username: postgres
+  password: Summer01 
+  connectionUrl: jdbc:postgresql://localhost:5432/dev-perd-db
   
   
