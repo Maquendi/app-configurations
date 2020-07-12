@@ -1,6 +1,6 @@
 database:
   username: postgres
-  password: Summer01 
+  password: XDWEKF4SDE8WDD25DS7WW6D02D 
   connectionUrl: jdbc:postgresql://localhost:5432/dev-perd-db
   
   
