@@ -5,8 +5,8 @@ app:
       password: 
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
-      port: 8191
-      configServerHost: configServer
+      port: 8080
+      configServerHost: localhost
     oktaDomain0: dev-597332.okta.com
     oktaDomain: https://dev-870513.okta.com/oauth2/default
     oktaToken: 00Ts62mTRO90uO9XDLhmHBoFl2e-XxSFMqjgZzQqxz

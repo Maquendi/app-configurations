@@ -4,5 +4,12 @@ app:
       username: postgres
       password: XDWEKF4SDE8WDD25DS7WW6D02D 
       connectionUrl: jdbc:postgresql://localhost:5432/prod-perd-db
+      hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
       port: 8080
+      configServerHost: localhost
+    oktaDomain0: dev-597332.okta.com
+    oktaDomain: https://dev-870513.okta.com/oauth2/default
+    oktaToken: 00Ts62mTRO90uO9XDLhmHBoFl2e-XxSFMqjgZzQqxz
+    oktaPerdDomain: https://dev-870513.okta.com/oauth2/ausm1y3sjspr5gw6T4x6
+    
