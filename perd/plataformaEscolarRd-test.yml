@@ -3,6 +3,7 @@ app:
     database:
       username: sa
       password: 
+      connectionUrl: jdbc:h2:mem:testdb
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
       port: 8080
