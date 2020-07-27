@@ -6,7 +6,7 @@ app:
       connectionUrl: jdbc:h2:mem:testdb
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
-      port: 8080
+      port: 8683
       configServerHost: localhost
     oktaDomain0: dev-597332.okta.com
     oktaDomain: https://dev-870513.okta.com/oauth2/default
