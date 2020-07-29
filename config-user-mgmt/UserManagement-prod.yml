@@ -3,7 +3,7 @@ app:
     database:
       username: sa
       password: 
-      connectionUrl: jdbc:h2:mem:testdb
+      connectionUrl: jdbc:postgresql://localhost:5432/user_mgmt_db_prod
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
       port: 8683

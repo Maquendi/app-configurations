@@ -3,7 +3,7 @@ app:
     database:
       username: postgres
       password: XDWEKF4SDE8WDD25DS7WW6D02D 
-      connectionUrl: jdbc:postgresql://localhost:5432/prod-perd-db
+      connectionUrl: jdbc:postgresql://localhost:5432/user_mgmt_db_dev
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
       port: 8080
