@@ -1,12 +1,12 @@
 app:
   settings:
     database:
-      username: postgres
-      password: XDWEKF4SDE8WDD25DS7WW6D02D 
-      connectionUrl: jdbc:postgresql://postgres-server-dev:5432/perd-dev-db
+      username: sa
+      password: 
+      connectionUrl: jdbc:h2:mem:testdb
       hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     server:
-      port: 8383
+      port: 8683
       configServerHost: localhost
     oktaDomain0: dev-597332.okta.com
     oktaDomain: https://dev-870513.okta.com/oauth2/default
