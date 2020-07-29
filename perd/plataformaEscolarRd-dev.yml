@@ -8,7 +8,4 @@ app:
     server:
       port: 8383
       configServerHost: localhost
-    oktaDomain0: dev-597332.okta.com
-    oktaDomain: https://dev-870513.okta.com/oauth2/default
-    oktaToken: 00Ts62mTRO90uO9XDLhmHBoFl2e-XxSFMqjgZzQqxz
   
