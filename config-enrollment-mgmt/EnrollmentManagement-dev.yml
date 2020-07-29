@@ -1,5 +1,5 @@
 app:
-  settings:
+  config:
     database:
       username: postgres
       password: XDWEKF4SDE8WDD25DS7WW6D02D 
