@@ -1,10 +1,11 @@
 app:
   config:
-    database:
+    configServerHost: localhost
+    hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
+    
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:mem:testdb
       username: sa
       password: 
-      connectionUrl: jdbc:h2:mem:testdb
-      hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
-    server:
-      port: 8683
-      configServerHost: localhost

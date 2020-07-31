@@ -1,11 +1,11 @@
 app:
   config:
-    database:
+    configServerHost: localhost
+    
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/enrollment_mgmt_db_prod
       username: postgres
-      password: XDWEKF4SDE8WDD25DS7WW6D02D 
-      connectionUrl: jdbc:postgresql://localhost:5432/enrollment_mgmt_db_prod
-      hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
-    server:
-      port: 8080
-      configServerHost: localhost
+      password: XDWEKF4SDE8WDD25DS7WW6D02D
     

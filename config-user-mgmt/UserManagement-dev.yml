@@ -1,11 +1,11 @@
 app:
   config:
-    database:
-      username: postgres
-      password: XDWEKF4SDE8WDD25DS7WW6D02D 
-      connectionUrl: jdbc:postgresql://localhost:5432/user_mgmt_db_dev
-      hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
-    server:
-      port: 8080
-      configServerHost: localhost
+    configServerHost: localhost
+    hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
     
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:postgresql://localhost:5432/user_mgmt_db_dev
+      username: postgres
+      password: XDWEKF4SDE8WDD25DS7WW6D02D
