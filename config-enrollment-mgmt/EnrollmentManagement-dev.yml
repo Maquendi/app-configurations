@@ -6,6 +6,6 @@ app:
 spring:
   datasource:
     hikari:
-      jdbc-url: jdbc:postgresql://localhost:5432/enrollment_mgmt_db_dev
+      jdbc-url: jdbc:postgresql://${POSTGRES_SERVER_HOST}/enrollment_mgmt_db_dev
       username: postgres
       password: XDWEKF4SDE8WDD25DS7WW6D02D

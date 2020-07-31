@@ -6,7 +6,7 @@ app:
 spring:
   datasource:
     hikari:
-      jdbc-url: jdbc:postgresql://localhost:5432/user_mgmt_db_prod
+      jdbc-url: jdbc:postgresql://${POSTGRES_SERVER_HOST}/user_mgmt_db_prod
       username: postgres
       password: XDWEKF4SDE8WDD25DS7WW6D02D
   
