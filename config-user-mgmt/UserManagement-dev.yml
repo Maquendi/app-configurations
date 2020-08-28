@@ -8,13 +8,3 @@ spring:
     url: jdbc:postgresql://${POSTGRES_SERVER_HOST}/user_mgmt_db_dev
     username: postgres
     password: XDWEKF4SDE8WDD25DS7WW6D02D
-    
-    
- security:
-  oauth2:
-    authorization:
-      jwt:
-        key-value: MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAJbH5yQocbKF+llzVgsjQiQ88bpHcgHl/eEFkyxlqRifV+gFkWQInfFadeID87bCSVlhHmrjGJPmNmzOlTvUK3rI+jiAE6HoGh8j+dnFXCg1ajhxkJVs/QTk9lmDBDRs21uWaDvrYl0lZ0rhYuKaVYts+lGB6wSFeD6bf+lCa3XJAgMBAAECgYBZMPDSm7X943De3vHj7rxeUUqwZTjUVKckJ7cSSSSIsyE916VUZiB/t4IJ60qMLktTOrbShXlxa3mATYdLd8srkxzQddsh0xQ9es6igu0Wqr9VURRwv12oczuxq26qIN4wqH4XA1O7dhw3yWfxEXEwNG99eIz7b4f7dHrXTdoq8QJBAMkk6R1kDuTg2DNlKaMxqkcygSTaNTpWpuDo5uIo3J4MdivBQat/C691CfP5uZdJhnX2IaAQrkvUOjqzGtiTp20CQQC/5tNXA3EHgJ5Dzf3XI5gJFLXMRK1J/aJqies3C7ybiu3McipjADC6Wsnf158PpRQzqKfhuyRHciq94bwBOEJNAkAS8JnOvaw1WwKgnEb2aefJunS0nqNiceRWyzdqVkSn0S6TYign2Nel1tRwF7SlDTRPCTUTWF7BHyO4gULm38hlAkEAmSLP/53lcsE2ipE1QZtL1eNK+AjN6D+YfkA1DaY2CkGhZgaswHgEapHMiu38JnXrWxX5cm7ukn0OkpwydR65+QJBAIkf1GO+xSWWN05GI1tgs8aaj6fuZQRLTDru7q5b3qUGZX1zcqb64ws4o0WRFS0Hss4FuOw6CnMvTj/YxiC0gG8=
-    resource:
-      jwt:
-        key-value: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWx+ckKHGyhfpZc1YLI0IkPPG6R3IB5f3hBZMsZakYn1foBZFkCJ3xWnXiA/O2wklZYR5q4xiT5jZszpU71Ct6yPo4gBOh6BofI/nZxVwoNWo4cZCVbP0E5PZZgwQ0bNtblmg762JdJWdK4WLimlWLbPpRgesEhXg+m3/pQmt1yQIDAQAB
