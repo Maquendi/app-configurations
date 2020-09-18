@@ -1,0 +1,10 @@
+app:
+  config:
+    configServerHost: localhost
+    hibernateImportFiles: load_user_script.sql, load_roles_scripts.sql
+    
+spring:
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_SERVER_HOST}/auth_server_db_dev
+    username: postgres
+    password: XDWEKF4SDE8WDD25DS7WW6D02D
